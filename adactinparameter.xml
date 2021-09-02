@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="UserName" value="vickymathi1">
+		</parameter>
+		<parameter name="Password" value="MUTHUSELVAM1"></parameter>
+		<parameter name="InDate" value="13.08.2021"></parameter>
+		<parameter name="OutDate" value="14.08.2021"></parameter>
+		<parameter name="FirstName" value="Green">
+		</parameter>
+		<parameter name="LastName" value="Technology">
+		</parameter>
+		<parameter name="Address" value="Medavakkam"></parameter>
+		<parameter name="CCNum" value="9874561239874561"></parameter>
+		<parameter name="Cvv" value="987"></parameter>
+		<parameter name="FlipcartName" value="Green"></parameter>
+		<parameter name="FlipcartPwd" value="Technology"></parameter>
+		<classes>
+			<class name="org.testngnew.AdactinParameters" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
